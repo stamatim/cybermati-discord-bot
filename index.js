@@ -1,20 +1,14 @@
-import DiscordJS from "discord.js";
-
-require('dotenv').config() // Loads the Bot token based on the current environment
-
-////////// DISCORD.JS INITIALIZATION //////////
+require('dotenv').config(); // Loads the Bot token based on the current environment
+const fs = require('fs'); // Load the fs module
 const Discord = require('discord.js'); // Library for Discord API interaction
 const client = new Discord.Client(); // Initialize the Library
 
-////////// HANDLE EVENTS USING CALLBACK FUNCTIONS //////////
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`)
-})
-client.on('message', msg => {
-    if (msg.content === 'ping') {
-        msg.reply('Pong!')
-    }
-})
-client.login("process.env.BOT_TOKEN") // Establish websocket connection to Discord with given bot token
+fs.readdir('./events/', (err, files) => {
+    files.forEach(file => {
+        const eventHandler = require(`./events/${file}`);
+        const eventName = file.split('.')[0];
+        client.on(eventName, (...args) => eventHandler(client, ...args));
+    })
+}) // Callback function for fs with event handling
 
-
+client.login(process.env.BOT_TOKEN); // Establish websocket connection to Discord with given bot token
