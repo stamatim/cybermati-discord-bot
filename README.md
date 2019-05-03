@@ -1,5 +1,6 @@
-# My First Discord Bot
-My first attempt at making a Discord bot using JavaScript and [discord.js](https://discord.js.org)
+# Cybermati Discord Bot
+My first attempt at making a Discord bot using JavaScript and [discord.js](https://discord.js.org), with the purpose of learning the workflow so I can make more in the future. This will be an ongoing project...
+>>>>>>> 5d8adad41e979a0d539adc1012cee25a3c56cc1d
 
 ## Features & Commands
 - Welcome new members to the server
@@ -9,7 +10,6 @@ My first attempt at making a Discord bot using JavaScript and [discord.js](https
 *Build your own Discord bot using the same steps that I followed...*
 
 *[Inside your project's root directory]*
-
 1. `npm init -y` - Generate a package.json file
 2. `npm install discord.js` - Import library to allow interaction with the Discord API
 3. Create `index.js` file and fill with sample code from [Discord.js](https://discord.js.org/)
@@ -53,4 +53,4 @@ My first attempt at making a Discord bot using JavaScript and [discord.js](https
 2. Once you made an account, go to your dashboard and click on *New > Create New App* and enter a name
 3. In your project's root folder directory, create a file and name it `Procfile` and insert the contents specified below:
 `worker node index.js`
-4. Follow the instructions by Heroku on the deployment tab
+4. Follow the instructions by Heroku on the deployment tab and deploy!
