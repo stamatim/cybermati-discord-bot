@@ -1,0 +1,28 @@
+{
+  "name": "my-first-discord-bot",
+  "version": "1.0.0",
+  "description": "This is a project I created to see how Discord bots are made and how they work. I am planning on making some in the future for various functions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stamatim/my-first-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stamatim/my-first-discord-bot/issues"
+  },
+  "homepage": "https://github.com/stamatim/my-first-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
