@@ -1,5 +1,5 @@
-# My First Discord Bot
-My first attempt at making a Discord bot using JavaScript with the purpose of learning the workflow so I can make more in the future
+# Cybermati Discord Bot
+My first attempt at making a Discord bot using JavaScript with the purpose of learning the workflow so I can make more in the future. This will be an ongoing project
 
 ## Steps
 *[Inside the Projects Directory]*
