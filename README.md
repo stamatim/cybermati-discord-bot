@@ -1,6 +1,6 @@
 # Cybermati Discord Bot
 My first attempt at making a Discord bot using JavaScript and [discord.js](https://discord.js.org), with the purpose of learning the workflow so I can make more in the future. This will be an ongoing project...
->>>>>>> 5d8adad41e979a0d539adc1012cee25a3c56cc1d
+
 
 ## Features & Commands
 - Welcome new members to the server
