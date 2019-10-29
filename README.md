@@ -2,7 +2,7 @@
 My first attempt at making a Discord bot using JavaScript and [discord.js](https://discord.js.org), with the purpose of learning the workflow so I can make more in the future. This will be an ongoing project...
 
 
-## Features & Commands
+## Current Features & Commands
 - Welcome new members to the server
 - Kick members from the server
 
